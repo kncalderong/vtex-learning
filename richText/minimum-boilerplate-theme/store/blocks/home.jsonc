@@ -1,0 +1,23 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#title",
+      "rich-text#valores"
+    ]
+  },
+  "rich-text#title": { 
+    "props": { 
+      "text": "# Nuestros Valores",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#valores": { 
+    "props": { 
+    "text": "- Perseguimos el WOW de nuestros clientes\n- Perseguimos el aprendizaje y el crecimienton\n- Somos apasionados y disciplinados\n- Somos un equipo\n- Somos orientas a resultados",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER"
+    }
+  }
+}
