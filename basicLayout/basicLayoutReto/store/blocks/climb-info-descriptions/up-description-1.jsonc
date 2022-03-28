@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#up-description-1":{
+        "children":[
+          "rich-text#basic-text-1"
+        ]
+      },
+      "rich-text#basic-text-1":{
+        "props":{
+          "text":"## A mountain",
+          "textPosition": "CENTER"
+        }
+      }
+}

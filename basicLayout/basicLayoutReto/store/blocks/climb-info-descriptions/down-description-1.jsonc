@@ -1,0 +1,12 @@
+{  "flex-layout.col#down-description-1":{
+    "children":[
+      "rich-text#basic-text-3"
+    ]
+  },
+  "rich-text#basic-text-3":{
+    "props":{
+      "text":"Minimal requirements:\n1. climbing shoes\n2. knowledge about where is it\n3. money to travel there\n4. motivation",
+      "textPosition": "CENTER"
+    }
+  }
+}

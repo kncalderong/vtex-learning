@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#up-description-2":{
+        "children":[
+          "rich-text#basic-text-2"
+        ]
+      },
+      "rich-text#basic-text-2":{
+        "props":{
+          "text":"This looks like an ancient mountain, it could be cool to climb it",
+          "textPosition": "CENTER",
+          "font":"t-heading-5"
+        }
+      }
+}

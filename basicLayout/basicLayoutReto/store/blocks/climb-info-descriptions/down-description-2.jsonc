@@ -1,0 +1,13 @@
+{
+  "flex-layout.col#down-description-2":{
+    "children":[
+      "rich-text#basic-text-4"
+    ]
+  },
+  "rich-text#basic-text-4":{
+    "props":{
+    "text":"What do I already have:\n* climbing shoes\n* motivation",
+      "textPosition": "CENTER"
+    }
+  }
+}

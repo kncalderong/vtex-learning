@@ -1,0 +1,75 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text#title",
+      "flex-layout.row#climb-container"
+    ]
+  },
+  
+  "rich-text#title": { 
+    "props": { 
+      "text": "This is a layout excercise",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#climb-container":{
+    "children":[
+      "flex-layout.col#image-container",
+      "flex-layout.col#info-container"
+    ]
+  },
+
+  //this is the image section
+  "flex-layout.col#image-container":{
+    "props":{
+      "verticalAlign":"middle"
+    },
+
+    "children":[
+      "image#mountain"
+    ]
+  },
+  "image#mountain":{
+    "props":{
+      "src":"assets/mountain.jpg",
+      "maxHeight":600
+    }
+  },
+  "rich-text#image":{
+    "props":{
+      "text":"this will be the image"
+    }
+  },
+  //this is the info section
+  "flex-layout.col#info-container":{
+    "children":[
+      "flex-layout.row#info-1-container",
+      "flex-layout.row#info-2-container"
+
+    ]
+  },
+  "flex-layout.row#info-1-container":{
+    "children":[
+      "flex-layout.col#info-1-subcontainer"
+    ]
+  },
+  "flex-layout.row#info-2-container":{
+    "children":[
+      "flex-layout.col#down-description-1",
+      "flex-layout.col#down-description-2"
+    ]
+  },
+
+  //this is the first info subcontainer to be able to include rows again
+  "flex-layout.col#info-1-subcontainer":{
+    "children":[
+      "flex-layout.row#up-description-1",
+      "flex-layout.row#up-description-2" 
+    ]
+  }
+
+
+}
+
