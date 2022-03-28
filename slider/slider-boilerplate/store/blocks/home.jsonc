@@ -1,0 +1,58 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "flex-layout.row#slider-food"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "This is a slider exercise",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "flex-layout.row#slider-food":{
+
+    "children":[
+      "slider-layout#food"
+    ]
+  },
+  "slider-layout#food":{
+    "props":{
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots":"mobileOnly",
+      "autoplay":{
+        "timeout":2000,
+        "stopOnHover":true
+      }
+    },
+    "children":[
+      "rich-text#defaul-text",
+      "image#pizza",
+      "image#ramen"
+      
+    ]
+  },
+  "rich-text#defaul-text":{
+    "props":{
+      "text":"lorem ipsum  lorem ipsumlorem ipsum"
+    }
+  },
+  "image#pizza":{
+    "props":{
+      "src":"assets/pizza.jpg"
+    }
+  },
+  "image#ramen":{
+    "props":{
+      "src":"assets/ramen.jpg"
+    }
+  }
+
+}
