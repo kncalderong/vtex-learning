@@ -1,0 +1,253 @@
+{
+    "flex-layout.row#servicios":{
+        "children":[
+            "flex-layout.col#servicios-container"
+        ],
+        "props":{
+            "blockClass":"bgc-gray"
+        }
+    },
+    "flex-layout.col#servicios-container":{
+        "children":[
+            "flex-layout.row#servicios-row-1",
+            "flex-layout.row#servicios-row-2"
+        ]
+    },
+    "flex-layout.row#servicios-row-1":{
+        "children":[
+            "rich-text#descripcion",
+            "flex-layout.col#estrategia",
+            "flex-layout.col#e-commerce",
+            "flex-layout.col#marketing"
+        ],
+        "props":{
+            "blockClass":"servicios-row-gap"
+        }
+    },
+    "flex-layout.row#servicios-row-2":{
+        "children":[
+            "flex-layout.col#usuario",
+            "flex-layout.col#ventas",
+            "flex-layout.col#cliente",
+            "flex-layout.col#data"
+        ],
+        "props":{
+            "blockClass":"servicios-row-gap"
+        }
+    },
+    "rich-text#demo-text":{
+        "props":{
+            "text":"Demo text to test services"
+        }
+    },
+    "rich-text#descripcion":{
+        "props":{
+            "text":"## Servicios\n En BlackSip somos expertos regionales en lograr resultados enfocados a la innovación tecnológica, con el fin de lograr que contamos con los siguientes 7 servicios:",
+            "textAlignment": "CENTER"
+        }
+    },
+
+    //estrategia
+    "flex-layout.col#estrategia":{
+        "children":[
+            "image#estrategia",
+            "rich-text#estrategia-text",
+            "link#estrategia"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#estrategia":{
+        "props":{
+            "src":"assets/home/services/iconos-serv1.png"
+        }
+    },
+    "rich-text#estrategia-text":{
+        "props":{
+            "text":"**Estrategia y\n transformacion digital**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#estrategia":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //e-commerce
+    "flex-layout.col#e-commerce":{
+        "children":[
+            "image#e-commerce",
+            "rich-text#e-commerce-text",
+            "link#e-commerce"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#e-commerce":{
+        "props":{
+            "src":"assets/home/services/iconos-serv2.png"
+        }
+    },
+    "rich-text#e-commerce-text":{
+        "props":{
+            "text":"**E-commerce y\n omni-channel commerce**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#e-commerce":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //marketing digital
+    "flex-layout.col#marketing":{
+        "children":[
+            "image#marketing",
+            "rich-text#marketing-text",
+            "link#marketing"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#marketing":{
+        "props":{
+            "src":"assets/home/services/iconos-serv3.png"
+        }
+    },
+    "rich-text#marketing-text":{
+        "props":{
+            "text":"**Marketing\n digital**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#marketing":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //usuario
+    "flex-layout.col#usuario":{
+        "children":[
+            "image#usuario",
+            "rich-text#usuario-text",
+            "link#usuario"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#usuario":{
+        "props":{
+            "src":"assets/home/services/iconos-serv4.png"
+        }
+    },
+    "rich-text#usuario-text":{
+        "props":{
+            "text":"**Interfaz y\n experiencia de usuario**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#usuario":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //ventas
+    "flex-layout.col#ventas":{
+        "children":[
+            "image#ventas",
+            "rich-text#ventas-text",
+            "link#ventas"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#ventas":{
+        "props":{
+            "src":"assets/home/services/iconos-serv5.png"
+        }
+    },
+    "rich-text#ventas-text":{
+        "props":{
+            "text":"**Ventas y\n CMR**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#ventas":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //cliente
+    "flex-layout.col#cliente":{
+        "children":[
+            "image#cliente",
+            "rich-text#cliente-text",
+            "link#cliente"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#cliente":{
+        "props":{
+            "src":"assets/home/services/iconos-serv6.png"
+        }
+    },
+    "rich-text#cliente-text":{
+        "props":{
+            "text":"**Servicio al\n cliente**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#cliente":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    },
+    //data
+    "flex-layout.col#data":{
+        "children":[
+            "image#data",
+            "rich-text#data-text",
+            "link#data"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "image#data":{
+        "props":{
+            "src":"assets/home/services/iconos-serv7.png"
+        }
+    },
+    "rich-text#data-text":{
+        "props":{
+            "text":"**Data\n analytics**",
+            "textAlignment": "CENTER"
+        }
+    },
+    "link#data":{
+        "props":{
+            "label":"+ INFORMACION",
+            "href":"#",
+            "blockClass":"btn-black"
+        }
+    }
+}

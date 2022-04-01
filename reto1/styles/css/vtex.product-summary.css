@@ -1,0 +1,42 @@
+/*.element{
+    padding: 0 25px;
+}
+.buyButton{
+    background-color: #2a2a2a;
+    color:#fff;
+    text-decoration: none;
+    padding:14px 20px;
+    font-size: 14px;
+    border-radius: 2em;
+    display:block;
+    transition: 0.25s all ease;
+    border:none
+}*/
+/*.buyButton--btn-black .vtex-button{
+    background-color:#2a2a2a;
+}*/
+/*.buyButtonText{
+    background-color: #2a2a2a;
+    color:#fff
+}*/
+
+/* :global(.vtex-button) */
+/* .infoCard :global.. */
+
+.buyButton :global(.vtex-button){
+    background-color:black;
+    color:#fff;
+    border-color:#2a2a2a;
+    border-radius: 2em;
+    font-size: 14px;
+    transition: 0.25s all ease;
+}
+.buyButton :global(.vtex-button):hover{
+    background-color:#fff;
+    color:black;
+    border-color:black;
+
+}
+.productBrand{
+    color:black;
+}

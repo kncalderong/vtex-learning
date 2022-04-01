@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#main-slider": {
+        "children": [
+            "slider-layout#main-slider"
+        ],
+        "props": {
+            "blockClass": [
+                "no-container" // esta clase probablemente le ayude a resolver uno de los puntos del reto del día 1
+            ]
+        }
+    },
+    
+    "slider-layout#main-slider": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 2500,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "blockClass": "carousel"
+        },
+        "children": [
+            "image#main-1",
+            "image#main-2"
+        ]
+    },
+    "image#main-1": {
+        "props": {
+            "src": "assets/home/slider/main-1.jpg"
+        }
+    },
+    "image#main-2": {
+        "props": {
+            "src": "assets/home/slider/main-2.jpg"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.container--sticky-header{
+    max-width: 1280px;
+    margin:0 auto;
+}
+.wrapper--sticky-header--stuck .container--sticky-header{
+    box-shadow: 10px 5px 5px rgb(0, 0, 0, 0.4) ;
+    max-width: none;
+    padding:0 calc((100% - 1280px) / 2);
+    background-color: #fff;
+    
+}

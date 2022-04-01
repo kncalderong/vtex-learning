@@ -1,0 +1,17 @@
+
+
+.sliderTrackContainer--carousel{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*to align items inside product-list carrousel*/
+.sliderTrack--carousel{
+    height:530px;
+}
+.slide--carousel--visible{
+    flex-grow:1;
+    align-items: flex-end;
+}
+.slide--recommended--visible{
+    padding: 0 20px;
+}

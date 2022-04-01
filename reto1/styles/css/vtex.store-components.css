@@ -1,0 +1,31 @@
+/*
+    Establece un ancho máximo de 1280px para las filas
+*/
+.container {
+    max-width:1280px;
+}
+
+/*esto es para estilizar la pagina /landing*/
+.infoCardHeadline--home{
+font-family: serif;
+  font-size: 2.25rem;
+  font-weight: normal;
+  color: gray;
+  border: 2px solid black;
+  padding: 24px;
+}
+.infoCardCallActionContainer--home :global(.vtex-button) {
+    color: white;
+    background-color: gray;
+    border: transparent;
+  }
+  .infoCardCallActionContainer--home :global(.vtex-button):hover {
+    color: gray;
+    background-color: blue;
+    border: transparent;
+  }
+  .infoCardContainer {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0;
+  }

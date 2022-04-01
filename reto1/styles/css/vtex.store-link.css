@@ -1,0 +1,14 @@
+.link--btn-black{
+    background-color: #2a2a2a;
+    color:#fff;
+    text-decoration: none;
+    padding:14px 20px;
+    font-size: 14px;
+    border-radius: 2em;
+    display:block;
+    transition: 0.25s all ease;
+}
+.link--btn-black:hover{
+    background-color: #fff;
+    color: #2a2a2a;
+}

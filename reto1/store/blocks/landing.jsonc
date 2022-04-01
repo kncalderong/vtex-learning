@@ -1,0 +1,60 @@
+{
+    "store.custom#landing":{
+        "blocks":[
+            "image#landingbanner",
+            "search-result-layout.customQuery",
+            "info-card#clearance",
+            "info-card#vintage"
+        ]
+    },
+    /*this blocks were added for the css custom*/
+    "image#landingbanner": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+            "minWidth": "100%"
+        }
+    },
+    // store/blocks/search-landing.jsonc
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Blue Top Retro Camera",
+                "mapField": "ft"
+            }
+        },
+        "blocks": [
+                   "search-result-layout.desktop"
+                 ]
+    },
+
+
+    "info-card#clearance": {
+        "props": {
+        "id": "info-card-clearance",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Clearance Sale",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "center",
+        "blockClass":"home"
+        }
+    },
+    "info-card#vintage": {
+        "props": {
+            "id": "info-card-vintage",
+            "isFullModeStyle": false,
+            "textPosition": "right",
+            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+            "headline": "Vintage",
+            "callToActionText": "DISCOVER",
+            "callToActionUrl": "/sale/d",
+            "textAlignment": "center",
+            "blockClass": "vintage"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "responsive-layout.desktop#partners": {
+        "children": [
+            "flex-layout.row#slider-partners-desktop"
+        ]
+    },
+
+    "responsive-layout.mobile#partners": {
+        "children": [
+            "flex-layout.row#slider-partners-mobile"
+        ]
+    },
+
+    "flex-layout.row#slider-partners-desktop": {
+        "children": [
+            "flex-layout.col#slider-partners-desktop"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 9
+        }
+    },
+
+    "flex-layout.row#slider-partners-mobile": {
+        "children": [
+            "flex-layout.col#slider-partners-mobile"
+        ],
+        "props": {
+            "marginTop": 9,
+            "marginBottom": 9
+        }
+    },
+    "flex-layout.col#slider-partners-desktop": {
+        "children": [
+            "rich-text#partners-desktop",
+            "slider-layout#partners"
+        ]
+    },
+    "flex-layout.col#slider-partners-mobile": {
+        "children": [
+            "rich-text#partners-mobile",
+            "slider-layout#partners"
+        ]
+    },
+    "rich-text#partners-desktop": {
+        "props": {
+            "text": "Ellos han confiado en nosotros:",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+    "rich-text#partners-mobile": {
+        "props": {
+            "text": "Ellos confian en nosotros:",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER"
+        }
+    },
+    "slider-layout#partners": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "autoplay": {
+                "timeout": 2500,
+                "stopOnHover": true
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "blockClass": "carousel-partners"
+        },
+        "children": [
+            "image#partner-1",
+            "image#partner-2"
+        ]
+    },
+    "image#partner-1": {
+        "props": {
+            "src": "assets/home/partners-1.png",
+            "maxHeight": 140
+        }
+    },
+    "image#partner-2": {
+        "props": {
+            "src": "assets/home/partners-2.png",
+            "maxHeight": 140
+        }
+    }
+}

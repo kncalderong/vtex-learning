@@ -1,0 +1,46 @@
+{
+    "store.home": {
+        "blocks": [
+            "slider-layout#main-slider",
+            "flex-layout.row#copy",
+
+            // partners
+            // .phone < 640           Solo celulares
+            // .mobile < 1024         Celulares y tablets
+            // .tablet > 640 < 1024   Solo tablets
+            // .desktop > 1024        Solo desktop
+            "responsive-layout.desktop#partners",
+            "responsive-layout.mobile#partners",
+            "flex-layout.row#servicios",
+            "rich-text#recommended-text",
+            "list-context.product-list#demo1"
+ 
+
+        ]
+    },
+
+    "flex-layout.row#copy": {
+        "children": [
+            "rich-text#copy"
+        ],
+        "props": {
+            "marginTop": 7
+        }
+    },
+    "rich-text#copy": {
+        "props": {
+            "text": "Somos una empresa experta en servicios de comercio electrónico enfocada en llevar a nuestros clientes a ser mejores vendiendo a través de canales digitales.",
+            "textAlignment": "CENTER",
+            "blockClass": "home-copy"
+        }
+    },
+    "rich-text#recommended-text": {
+        "props": {
+            "text": "### Productos recomendados",
+            "textAlignment": "CENTER",
+            "textPosition":"CENTER"
+            //"blockClass": "home-copy"
+        }
+    }
+   
+}
