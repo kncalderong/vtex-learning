@@ -9,7 +9,10 @@
     "children": ["flex-layout.row#footer-mobile"]
   },
   "flex-layout.row#footer-desktop": {
-    "children": ["social-networks", "accepted-payment-methods", "powered-by"]
+    "children": [
+      "social-networks",
+      "accepted-payment-methods" /*, "powered-by"*/
+    ]
   },
   "flex-layout.row#footer-mobile": {
     "children": ["social-networks", "accepted-payment-methods"]

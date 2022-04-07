@@ -1,6 +1,10 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "list-context.product-list#demo1"]
+    "blocks": [
+      "rich-text",
+      "list-context.product-list#demo1",
+      "newsletter-form#demo"
+    ]
   },
   "rich-text": {
     "props": {

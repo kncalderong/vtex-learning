@@ -1,0 +1,12 @@
+{
+  "newsletter-form#demo": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-input-phone",
+      "newsletter-checkbox-confirmation",
+      "newsletter-hidden-field",
+      "newsletter-submit"
+    ]
+  }
+}
