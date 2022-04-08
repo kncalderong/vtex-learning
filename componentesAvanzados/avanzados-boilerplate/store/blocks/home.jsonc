@@ -2,8 +2,9 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "list-context.product-list#demo1",
-      "newsletter-form#demo"
+      /*"list-context.product-list#demo1",
+      "newsletter-form#demo"*/
+      "drawer#demo"
     ]
   },
   "rich-text": {

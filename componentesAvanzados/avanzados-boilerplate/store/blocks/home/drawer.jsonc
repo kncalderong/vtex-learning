@@ -1,0 +1,67 @@
+{
+  "drawer#demo": {
+    "children": ["menu#drawer"],
+    "blocks": ["drawer-trigger", "drawer-header#my-closer"], //this is optional, and its only used if I want to style the trigger button or the close button
+    "props": {
+      //"maxWidth": 300,
+      //"isFullWidth": true,
+      "slideDirection": "leftToRight",
+      "renderingStrategy": "eager"
+    }
+  },
+
+  //this is to style the button that triggers the sidebar
+  "drawer-trigger": {
+    "children": ["rich-text#open-drawer"]
+  },
+
+  "rich-text#open-drawer": {
+    "props": {
+      "text": "Open drawer"
+    }
+  },
+
+  //this is to style the close button in the header
+  "drawer-header#my-closer": {
+    "children": ["drawer-close-button#my-closer-button"]
+  },
+  "drawer-close-button#my-closer-button": {
+    "props": {
+      "size": 16,
+      "type": "filled",
+      "text": "Close drawer"
+    }
+  },
+
+  "menu#drawer": {
+    "children": ["menu-item#shop", "menu-item#shop", "menu-item#shop"],
+    "props": {
+      "orientation": "horizontal"
+    }
+  },
+
+  "menu-item#shop": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false, //this change the color of the text
+      "iconPosition": "left",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "ShopTag",
+        "text": "Shop"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16", // this positions the icon inside the container
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true,
+      "blockClass": "my-menu-item-csstag"
+    }
+  }
+}
