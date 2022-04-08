@@ -48,5 +48,8 @@
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x"
   },
+  "peerDependencies": {
+    "vtex.store-locator": "0.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -1,0 +1,13 @@
+{
+  "store.custom#landing2": {
+    "blocks": ["rich-text#landing-2"]
+  },
+  "rich-text#landing-2": {
+    "props": {
+      "text": "Landing",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}

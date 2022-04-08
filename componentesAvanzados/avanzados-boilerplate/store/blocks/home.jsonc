@@ -1,10 +1,12 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text",
+      "rich-text"
       /*"list-context.product-list#demo1",
       "newsletter-form#demo"*/
-      "drawer#demo"
+      //"drawer#demo"
+      /*"product-reviews",
+      "product-rating-summary"*/
     ]
   },
   "rich-text": {
